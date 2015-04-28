@@ -1,4 +1,4 @@
-<!--A Design by W3layouts
+﻿<!--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -157,7 +157,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		      <div class="clearfix"> </div> 
 		  </div>
           <div class="box_2">
-			  <div class="col-md-6">
+			  
+
+
+
+<div class="col-md-6">
 			  	<div class="feature  wow fadeInRight" data-wow-delay="0.4s">
 	                   <i class="fa fa-film"> </i>
 	                   <h4>news heading 5</h4>
