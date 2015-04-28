@@ -108,6 +108,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	mysql_query("SET NAMES utf8");
 	$strSQL ="SELECT * FROM news_system ORDER BY id_news DESC LIMIT 5";
 	$objQuery = mysql_query($strSQL) or die ("Error Query [".$strSQL."]");
+	for($i = 0; $i < mysql_num_rows($objQuery); $i = $i+2) {
+		<div box_2>
+			<div col-md-6>$result = mysql_result($objQuery, i)</div>
+			<div col-md-6>$result = mysql_result($objQuery, i+1)</div>
+			<div clear-fix></div>
+		</div>
+		
+	}
 	
 
 ?>
